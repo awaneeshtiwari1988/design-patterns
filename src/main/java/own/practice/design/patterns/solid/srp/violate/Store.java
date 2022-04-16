@@ -1,4 +1,4 @@
-package own.practice.design.patterns.solid.violate.srp;
+package own.practice.design.patterns.solid.srp.violate;
 
 import java.util.HashMap;
 import java.util.Map;

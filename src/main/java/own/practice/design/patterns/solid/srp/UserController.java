@@ -1,7 +1,7 @@
 package own.practice.design.patterns.solid.srp;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import own.practice.design.patterns.solid.violate.srp.User;
+import own.practice.design.patterns.solid.srp.violate.User;
 
 import java.io.IOException;
 

@@ -1,7 +1,7 @@
 package own.practice.design.patterns.solid.srp;
 
-import own.practice.design.patterns.solid.violate.srp.Store;
-import own.practice.design.patterns.solid.violate.srp.User;
+import own.practice.design.patterns.solid.srp.violate.Store;
+import own.practice.design.patterns.solid.srp.violate.User;
 
 public class UserPersistence {
 

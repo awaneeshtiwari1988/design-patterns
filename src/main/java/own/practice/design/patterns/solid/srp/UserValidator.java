@@ -1,6 +1,6 @@
 package own.practice.design.patterns.solid.srp;
 
-import own.practice.design.patterns.solid.violate.srp.User;
+import own.practice.design.patterns.solid.srp.violate.User;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

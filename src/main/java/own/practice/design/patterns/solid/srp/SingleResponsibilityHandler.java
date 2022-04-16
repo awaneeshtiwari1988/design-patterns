@@ -1,6 +1,6 @@
 package own.practice.design.patterns.solid.srp;
 
-import own.practice.design.patterns.solid.violate.srp.UserController;
+import own.practice.design.patterns.solid.srp.violate.UserController;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ public class SingleResponsibilityHandler {
     private static final String INVALID_USER_JSON = "{\"name\": \"Sam\", \"email\": \"sam@email\", \"address\":\"111 Sugar lane\"}";
 
     public static void main(String[] args) throws IOException {
-        own.practice.design.patterns.solid.violate.srp.UserController controller = new UserController();
+        UserController controller = new UserController();
         //Check with valid JSON
         String response = controller.createUser(VALID_USER_JSON);
         if(!response.equalsIgnoreCase("SUCCESS")) {
